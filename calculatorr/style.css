@@ -1,0 +1,53 @@
+body {
+    /* background-color: aqua; */
+    /* margin: auto; */
+}
+
+.calculator {
+    background-color: rgb(20, 19, 19);
+    width: 15vw;
+    border: 2px solid red;
+    height: 60vh;
+    margin: auto;
+    margin-top: 80px;
+}
+
+input {
+    padding: 30px;
+    width: 11.3vw;
+}
+
+.num-operator {
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.num-operator>button {
+    /* background-color: brown; */
+    padding: 10px;
+    margin: 14px;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+    background-color: black;
+}
+
+.num-operator>#all-clear,
+.num-operator>#plus-minus,
+.num-operator>#module {
+    color: aqua;
+}
+
+.num-operator>#Divide,
+.num-operator>#multiply,
+.num-operator>#minus,
+.num-operator>#plus,
+.num-operator>#equal {
+    color: red;
+}
+
+
+.num-operator>#one,.num-operator>#two,.num-operator>#three,.num-operator>#four,.num-operator>#five,.num-operator>#six,.num-operator>#seven,.num-operator>#eight,.num-operator>#nine,.num-operator>#zero,.num-operator>#clear,.num-operator>#dotted{
+    color: white;
+}
