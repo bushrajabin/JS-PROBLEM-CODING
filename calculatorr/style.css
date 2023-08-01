@@ -1,36 +1,49 @@
-body {
-    /* background-color: aqua; */
-    /* margin: auto; */
-}
-
 .calculator {
-    background-color: rgb(20, 19, 19);
-    width: 15vw;
-    border: 2px solid red;
-    height: 60vh;
+    background-color: black;
+    width: 19vw;
     margin: auto;
     margin-top: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px;
 }
 
 input {
-    padding: 30px;
-    width: 11.3vw;
+    background-color:black;
+    border: none;
+    outline: none;
+    margin-top: 40%;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
 }
-
+input::placeholder{
+    color: white;
+}
 .num-operator {
-    /* background-color: blueviolet; */
+    background-color: rgb(26, 26, 26);
+    height: 42vh;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 43%;
 }
 
 .num-operator>button {
-    /* background-color: brown; */
-    padding: 10px;
-    margin: 14px;
-    font-size: 17px;
+    margin: 12px;
     border: none;
     align-items: center;
-    background-color: black;
+    box-shadow: rgba(22, 22, 22, 0.04) 0px 3px 5px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+
 }
 
 .num-operator>#all-clear,
@@ -48,6 +61,17 @@ input {
 }
 
 
-.num-operator>#one,.num-operator>#two,.num-operator>#three,.num-operator>#four,.num-operator>#five,.num-operator>#six,.num-operator>#seven,.num-operator>#eight,.num-operator>#nine,.num-operator>#zero,.num-operator>#clear,.num-operator>#dotted{
+.num-operator>#one,
+.num-operator>#two,
+.num-operator>#three,
+.num-operator>#four,
+.num-operator>#five,
+.num-operator>#six,
+.num-operator>#seven,
+.num-operator>#eight,
+.num-operator>#nine,
+.num-operator>#zero,
+.num-operator>#clear,
+.num-operator>#dotted {
     color: white;
 }
