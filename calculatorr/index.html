@@ -16,27 +16,27 @@
             <div class="previous-operand"></div>
             <div class="current-operand"></div>
         </div> -->
-        <div class="num-operator">
-            <button id="all-clear" onclick="">AC</button>
-            <button id="plus-minus">+/-</button>
-            <button id="module">%</button>
-            <button id="Divide">÷</button>
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button id="multiply">X</button>
-            <button id="four">4</button>
-            <button id="five">5 </button>
-            <button id="six">6</button>
-            <button id="minus">-</button>
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="plus">+</button>
-            <button id="clear">↺</button>
-            <button id="zero">0</button>
-            <button id="dotted">.</button>
-            <button id="equal">=</button>
+        <div class="num-operator" id="text">
+            <button value="C"  id="all-clear" onclick="clearDisplay()">AC</button>
+            <button value="+-" id="plus-minus" onclick="showNumbers('+/-')">+/-</button>
+            <button value="%" id="module" onclick="showNumbers('%')">%</button>
+            <button value="÷" id="Divide" onclick="showNumbers('÷')">÷</button>
+            <button value="7" id="seven" onclick="showNumbers('7')">7</button>
+            <button value="8" id="eight" onclick="showNumbers('8')">8</button>
+            <button value="9" id="nine" onclick="showNumbers('9')">9</button>
+            <button value="X" id="multiply" onclick="showNumbers('X')">X</button>
+            <button value="4" id="four" onclick="showNumbers('4')">4</button>
+            <button value="5 " id="five" onclick="showNumbers('5')">5 </button>
+            <button value="6" id="six" onclick="showNumbers('6')">6</button>
+            <button value="-" id="minus" onclick="showNumbers('-')">-</button>
+            <button value="1" id="one" onclick="showNumbers('1')">1</button>
+            <button value="2" id="two" onclick="showNumbers('2')">2</button>
+            <button value="3" id="three" onclick="showNumbers('3')">3</button>
+            <button value="+" id="plus" onclick="showNumbers('+')">+</button>
+            <button value="C" id="clear" onclick="clearDisplay('↺')">↺</button>
+            <button value="0" id="zero" onclick="showNumbers('0')">0</button>
+            <button  value="." id="dotted" onclick="showNumbers('.')">.</button>
+            <button value="=" id="equal" onclick="solveNumbers('=')">=</button>
 
 
 
