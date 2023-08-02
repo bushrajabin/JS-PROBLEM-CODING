@@ -75,3 +75,7 @@ input::placeholder{
 .num-operator>#dotted {
     color: white;
 }
+
+button:hover{
+    background-color: rgb(130, 80, 80);
+}
