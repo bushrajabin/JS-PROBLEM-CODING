@@ -12,17 +12,14 @@ function addSubMultiplyOfNumbers(a, b) {
             console.log(sub);
         }
         for(let l=1;l<=1;l++){
-            let mul=a*b;
+            let mul=a/b;
             console.log(mul);
         }
-        for(let m=1;m<=1;m++){
-            let division=a*b;
-            console.log(division);
-        }
+       
     }
 
 
 }
 
-let result = addSubMultiplyOfNumbers(2, 4);
+let result = addSubMultiplyOfNumbers(88, 4);
 console.log(result);
