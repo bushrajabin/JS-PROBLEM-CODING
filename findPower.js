@@ -1,5 +1,5 @@
 function powOfNum(a, b) {
-    pow = 1;
+   let pow = 1;
     for (var i = 0; i < b; i++) {
         pow = pow * a;
     }
