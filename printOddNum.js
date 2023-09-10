@@ -1,13 +1,14 @@
-function printOddNumbers() {
-    let oddNumber = [];
-    for (let i = 1; i < 100; i++) {
+function printOddNumbers(lastNumber) {
+    let oddNumbers = [];
+    for (let i = 1; i < lastNumber; i++) {
         if (i % 2 !== 0) {
-            oddNumber.push(i);
+            oddNumbers.push(i);
         }
+
     }
-    return oddNumber;
+    return oddNumbers;
 }
 
-let result = printOddNumbers();
+let result = printOddNumbers(100);
 console.log(result);
 

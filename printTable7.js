@@ -1,13 +1,13 @@
 function printTableOf7(number) {
-    const arr=[];
+    const table = [];
     for (i = 1; i <= 10; i++) {
-        const result=number*i;
-        arr.push(i + " x " + number + " = " + result)
+        const result = number * i;
+        table.push(i + " x " + number + " = " + result)
     }
-    return arr;
+    return table;
 }
 
-let res=printTableOf7(7);
+let res = printTableOf7(7);
 console.log(res)
 
 
